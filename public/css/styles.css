@@ -1,0 +1,50 @@
+:root {
+  --bs-font-sans-serif: "Cabin";
+}
+
+/* .container-xxl {
+  max-width: 1250px;
+} */
+
+body {
+  background-image: url("/img/i-like-food.svg");
+  background-color: rgba(243, 243, 243);
+}
+
+a {
+  color: var(--bs-dark);
+}
+
+/* Categories Card */
+
+.category-link {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  transition: 250ms all;
+}
+
+.category-link:hover {
+  transform: scale(1.1);
+  border: 1px sollid black;
+}
+
+.category-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-bottom: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.category-img-lg {
+  height: 300px;
+}
+
+.category-img img {
+  width: 100%;
+  object-fit: cover;
+}
